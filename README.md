@@ -2,6 +2,16 @@
 
 ![](https://static.tildacdn.com/tild3761-3062-4635-a636-666363643432/stepik-share-ru.png)
 
+<div id="badges" align="center">
+
+[![GitHub last commit](https://img.shields.io/github/last-commit/QuantumFluxx/Stepik_courses.svg)](https://github.com/QuantumFluxx/Stepik_courses) 
+[![GitHub commit activity the past week, 4 weeks, year](https://img.shields.io/github/commit-activity/y/QuantumFluxx/Stepik_courses.svg)](https://github.com/QuantumFluxx/Stepik_courses) 
+[![GitHub repo size in bytes](https://img.shields.io/github/repo-size/QuantumFluxx/Stepik_courses.svg)](https://github.com/QuantumFluxx/Stepik_courses)
+![ViewCount](https://views.whatilearened.today/views/github/QuantumFluxx/Stepik_courses.svg?cache=remove)
+![GitHub top language](https://img.shields.io/github/languages/top/QuantumFluxx/Stepik_courses.svg?style=flat)
+
+</div>
+
 Название   |Описание | Материалов пройдено
 -----------|:-------:|:-------------------:
 [Art of soft skills: гибкие навыки для жизни и учебы](https://github.com/QuantumFluxx/Stepik_courses/blob/main/Certificates/Art%20Of%20Soft%20skills%20%D0%B3%D0%B8%D0%B1%D0%BA%D0%B8%D0%B5%20%D0%BD%D0%B0%D0%B2%D1%8B%D0%BA%D0%B8%20%D0%B4%D0%BB%D1%8F%20%D0%B6%D0%B8%D0%B7%D0%BD%D0%B8%20%D0%B8%20%D1%83%D1%87%D0%B5%D0%B1%D1%8B.pdf) | Темы: эмоциональный интеллект, развитие команды, адаптивность, разрешение конфликтов, убеждение и самопозиционирование | 100%
@@ -33,3 +43,5 @@
 **В репозиторий [pet_projects](https://github.com/QuantumFluxx/pet_projects) сохраняю pet-проекты.**
 
 **В репозиторий [codewars_solutions](https://github.com/QuantumFluxx/codewars_solutions) сохраняются решения кат с ресурса www.codewars.com на языках Python, JavaScript, SQL.**
+
+**В репозиторий [HackerRank_solutions](https://github.com/QuantumFluxx/HackerRank_solutions) сохраняю решения проблем с ресурса www.hackerrank.com.**
