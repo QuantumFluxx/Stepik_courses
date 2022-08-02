@@ -1,6 +1,6 @@
 # Task 1
 
-puts "Ruby это весело"
+puts 'Ruby СЌС‚Рѕ РІРµСЃРµР»Рѕ'
 
 
 # Task 2
@@ -10,7 +10,7 @@ my_var = 42
 
 # Task 3
 
-puts "Привет, #{name}"
+puts 'РџСЂРёРІРµС‚, #{name}'
 
 
 # Task 4
@@ -21,20 +21,20 @@ x, y = y, x
 # Task 5
 
 
-text = "It\`s my ten course.\nI like Ruby"
+text = 'It\`s my ten course.\nI like Ruby'
 
 
 # Task 6
 
 
-res = "The result is #{a/b}"
+res = 'The result is #{a/b}'
 
 
 # Task 7
 
 
 name = gets.chomp
-puts "Привет, #{name}!"
+puts 'РџСЂРёРІРµС‚, #{name}!'
 
 
 # Task 8
@@ -64,7 +64,7 @@ puts gets.to_i / 10 % 10
 
 
 if age > 18
-    puts 'Добро пожаловать!'
+    puts 'Р”РѕР±СЂРѕ РїРѕР¶Р°Р»РѕРІР°С‚СЊ!'
 end
 
 
@@ -72,9 +72,9 @@ end
 
 
 if grade >= 70
-    puts "Отлично!"
+    puts 'РћС‚Р»РёС‡РЅРѕ!'
 else
-    puts "Все плохо!"
+    puts 'Р’СЃРµ РїР»РѕС…Рѕ!'
 end
 
 
@@ -83,9 +83,9 @@ end
 
 n = gets.to_i
 if n  >= 5 && n <= 10
-    puts 'Да'
+    puts 'Р”Р°'
 else
-    puts 'Нет'
+    puts 'РќРµС‚'
 end
 
 
@@ -146,15 +146,15 @@ end
 a = gets.to_i
 
 if a == 3
-    puts "Треугольник"
+    puts "РўСЂРµСѓРіРѕР»СЊРЅРёРє"
 elsif a == 4
-    puts "Четырехугольник"
+    puts "Р§РµС‚С‹СЂРµС…СѓРіРѕР»СЊРЅРёРє"
 elsif a == 5
-    puts "Пятиугольник"
+    puts "РџСЏС‚РёСѓРіРѕР»СЊРЅРёРє"
 elsif a == 6
-    puts "Шестиугольник"
+    puts "РЁРµСЃС‚РёСѓРіРѕР»СЊРЅРёРє"
 else
-    puts "Ошибка"
+    puts "РћС€РёР±РєР°"
 end
 
 
@@ -247,7 +247,7 @@ print arr1
 # Task 29
 
 
-dict = {"Январь"=>31, "Февраль"=>28, "Март"=>31}
+dict = {"РЇРЅРІР°СЂСЊ"=>31, "Р¤РµРІСЂР°Р»СЊ"=>28, "РњР°СЂС‚"=>31}
 print dict
 
 
@@ -462,7 +462,7 @@ puts Car::WHEELS
 
 class Custom
     def to_s
-    "Пользовательский вывод"
+    "РџРѕР»СЊР·РѕРІР°С‚РµР»СЊСЃРєРёР№ РІС‹РІРѕРґ"
     end
 end
 
@@ -592,6 +592,111 @@ puts p.to_s
 # Task 57
 
 
+module Fire
+    def firearms
+        puts 'It is firearm weapon!'
+    end
+end
+module Cold
+    def cold_steel
+        puts 'It is cold steel weapon!'
+    end
+end
+class Weapon
+    def define
+        puts 'It is a weapon!'
+    end
+end
+
+class Knife < Weapon
+    include Cold
+end
+
+class Bow < Weapon
+    include Cold
+end
+
+class Gun < Weapon
+    include Fire
+end
+
+class Rifle < Weapon
+    include Fire
+end
+
+# Task 58
+
+module Car
+    class Volvo
+        @@wheels=4
+        def how_many_wheels
+            puts @@wheels
+        end
+    end
+end
+
+module Truck
+    class Volvo
+        @@wheels=6
+        def how_many_wheels
+            puts @@wheels
+        end
+    end
+end
+
+c = Car::Volvo.new
+t = Truck::Volvo.new
+
+c.how_many_wheels
+t.how_many_wheels
+
+# Task 59
+
+Cat = Struct.new(:x, :y, :z)
 
 
+# Task 60
 
+
+# С‚РµРєСѓС‰РµРµ РІСЂРµРјСЏ
+t = Time.now
+puts t
+
+# РіРѕРґ, РјРµСЃСЏС†, РґРµРЅСЊ
+puts t.year
+puts t.month
+puts t.day
+
+# РїСЂРѕРёР·РІРѕР»СЊРЅР°СЏ РґР°С‚Р°
+t = Time.new(1988, 6, 15)
+puts t
+
+# РґРµРЅСЊ РЅРµРґРµР»Рё: 0 СЌС‚Рѕ РІРѕСЃРєСЂРµСЃРµРЅСЊРµ
+puts t.wday
+
+# РґРµРЅСЊ РіРѕРґР°
+puts t.yday
+
+
+# Task 61
+
+sum = Proc.new do |x,y,z|
+  puts x+y+z
+end
+
+
+# Task 62
+
+
+square = lambda{|x, y| puts x**y}
+
+
+# Task 63
+
+if File.file?("demo.txt")
+    f = File.open("demo.txt")
+    puts f.file
+    f.close
+else
+    puts "File does not exist"
+end
