@@ -38,12 +38,12 @@
 
 ------------------------------
 ### Дополнительно
-**В репозиторий [karpov_courses](https://github.com/QuantumFluxx/karpov_courses) добавляю проекты, лекции и практические задания с курса дополнительного профессионального образования по направлению "Аналитик данных".**
+**[karpov_courses](https://github.com/QuantumFluxx/karpov_courses) - проекты, лекции и практические задания с курса дополнительного профессионального образования по направлению "Аналитик данных".**
 
-**В репозиторий [DataCamp_projects](https://github.com/QuantumFluxx/DataCamp_projects) сохраняю проекты с ресурса https://www.datacamp.com/.**
+**[DataCamp_projects](https://github.com/QuantumFluxx/DataCamp_projects) - проекты с ресурса https://www.datacamp.com/.**
 
-**В репозиторий [pet_projects](https://github.com/QuantumFluxx/pet_projects) сохраняю pet-проекты.**
+**[pet_projects](https://github.com/QuantumFluxx/pet_projects) - pet-проекты.**
 
-**В репозиторий [codewars_solutions](https://github.com/QuantumFluxx/codewars_solutions) сохраняются решения кат с ресурса www.codewars.com на языках Python, JavaScript, SQL, Scala.**
+**[codewars_solutions](https://github.com/QuantumFluxx/codewars_solutions) - решения кат с ресурса www.codewars.com на языках Python, JavaScript, SQL, Scala.**
 
-**В репозиторий [HackerRank_solutions](https://github.com/QuantumFluxx/HackerRank_solutions) сохраняю решения проблем с ресурса www.hackerrank.com.**
+**[HackerRank_solutions](https://github.com/QuantumFluxx/HackerRank_solutions) - решения проблем с ресурса www.hackerrank.com.**
