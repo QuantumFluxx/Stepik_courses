@@ -42,7 +42,7 @@
 
 **[DataCamp_projects](https://github.com/QuantumFluxx/DataCamp_projects) - проекты с ресурса https://www.datacamp.com/.**
 
-**[pet_projects](https://github.com/QuantumFluxx/pet_projects) - pet-проекты.**
+**[pet_projects](https://github.com/QuantumFluxx/pet_projects) - pet-проекты**
 
 **[codewars_solutions](https://github.com/QuantumFluxx/codewars_solutions) - решения кат с ресурса www.codewars.com на языках Python, JavaScript, SQL, Scala.**
 
