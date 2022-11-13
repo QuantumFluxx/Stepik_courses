@@ -38,7 +38,7 @@
 
 ------------------------------
 ### Дополнительно
-**[karpov_courses](https://github.com/QuantumFluxx/karpov_courses) - проекты, лекции и практические задания с курса дополнительного профессионального образования по направлению "Аналитик данных".**
+**[karpov_courses](https://github.com/QuantumFluxx/karpov_courses) - проекты, лекции и практические задания с курса дополнительного профессионального образования по направлению "Аналитик данных"**
 
 **[DataCamp_projects](https://github.com/QuantumFluxx/DataCamp_projects) - проекты с ресурса https://www.datacamp.com/.**
 
